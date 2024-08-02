@@ -11,8 +11,11 @@
     <project path="device/xiaomi/pipa" name="pachdomenic/android_device_xiaomi_pipa" revision="lineage-21"  remote="github" />
     <project path="device/xiaomi/sm8250-common" name="amiami5/android_device_xiaomi_sm8250-common" revision="lineage-21"  remote="github" />
 
-
     <!-- kernel -->
-    <project path="kernel/xiaomi/sm8250" name="amiami5/android_kernel_xiaomi_sm8250" remote="github" revision="develop"  clone-depth="1000" />
+    <project path="kernel/xiaomi/sm8250" name="amiami5/android_kernel_xiaomi_sm8250" remote="github" revision="develop"  lone-depthc="1000" />
+
+    <!-- recovery -->
+    <remove-project name="LineageOS/android_bootable_recovery"/>
+    <project path="bootable/recovery" name="amiami5/android_bootable_recovery" remote="github" revision="pipa" />
 
 </manifest>
