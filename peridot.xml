@@ -50,7 +50,7 @@
   <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" revision="lineage-21.0" remote="peridot-dev"/>
 
-  <remove-project name="LineageOS/android_frameworks_base"/>
-  <project path="frameworks/base" name="loonage/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="github" revision="lineage-21.0"/>
+  <!--remove-project name="LineageOS/android_frameworks_base"/>
+  <project path="frameworks/base" name="loonage/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="github" revision="lineage-21.0"/-->
 
 </manifest>
