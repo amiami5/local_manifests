@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/xiaomi/cepheus" remote="github" name="crdroidandroid/android_device_xiaomi_cepheus" revision="14.0" />
+  <project path="device/xiaomi/sm8150-common" remote="github" name="crdroidandroid/android_device_xiaomi_sm8150-common" revision="14.0" />
+  <project path="hardware/xiaomi" remote="github" name="crdroidandroid/android_hardware_xiaomi" revision="14.0" />
+  <project path="kernel/xiaomi/cepheus" remote="github" name="crdroidandroid/android_kernel_xiaomi_cepheus" revision="14.0" />
+  <project path="vendor/xiaomi/cepheus" remote="github" name="raystef66/vendor_xiaomi_cepheus" revision="14.0" />
+  <project path="vendor/xiaomi/sm8150-common" remote="crdroid-gitlab" name="crdroidandroid/proprietary_vendor_xiaomi_sm8150-common" revision="14.0" />
+  <!-- project path="vendor/xiaomi/miuicamera" remote="crdroid-gitlab" name="crdroidandroid/proprietary_vendor_xiaomi_miuicamera" revision="14.0" / -->
+</manifest>
