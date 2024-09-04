@@ -16,6 +16,6 @@
 
     <!-- recovery -->
     <remove-project name="crdroidandroid/android_bootable_recovery"/>
-    <project path="bootable/recovery" name="amiami5/android_bootable_recovery" remote="github" revision="pipa" />
+    <project path="bootable/recovery" name="amiami5/android_bootable_recovery" remote="github" revision="crdroid-pipa" />
 
 </manifest>
