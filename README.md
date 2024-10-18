@@ -34,8 +34,15 @@ $ mkdir WORKSPACE
 $ cd WORKSPACE
 
 # Install Repo in the created directory
+
+```
+```bash
 $ repo init -u https://github.com/poco-f6-peridot/local_manifests.git -b peridot-15 --git-lfs
+
+```
 or,
+```bash
+
 $ git clone https://github.com/poco-f6-peridot/local_manifests -b peridot-15 .repo/local_manifests
 
 ```
