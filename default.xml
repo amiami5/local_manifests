@@ -41,4 +41,5 @@
 <project path="hardware/qcom-caf/sm8650/media" name="hardware_qcom_media" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="poco-f6-peridot" />
 <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="poco-f6-peridot" />
 
+
 </manifest>
