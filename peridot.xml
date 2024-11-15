@@ -53,9 +53,9 @@
 <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="poco-f6-peridot" />
 
   <remove-project name="LineageOS/android_vendor_qcom_opensource_power"/>
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,lanai-vendor" revision="15" remote="peridot-dev"/>
+  <project path="vendor/qcom/opensource/power" name="peridot-dev/android_vendor_qcom_opensource_power" groups="qcom,lanai-vendor" revision="lineage-21.0" remote="github"/>
 
   <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" revision="15" remote="peridot-dev"/>
+  <project path="vendor/qcom/opensource/vibrator" name="peridot-dev/android_vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" revision="lineage-21.0" remote="github"/>
   
 </manifest>
