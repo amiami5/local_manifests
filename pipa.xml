@@ -4,11 +4,11 @@
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/sm8250-common" name="ai94iq/proprietary_vendor_xiaomi_sm8250-common" revision="lmou"  remote="github" />
-    <project path="vendor/xiaomi/pipa" name="ai94iq/proprietary_vendor_xiaomi_pipa" revision="lmou"  remote="github" />
+    <project path="vendor/xiaomi/sm8250-common" name="pachdomenic/proprietary_vendor_xiaomi_sm8250-common" revision="lineage-21"  remote="github" />
+    <project path="vendor/xiaomi/pipa" name="pachdomenic/proprietary_vendor_xiaomi_pipa" revision="lineage-21"  remote="github" />
 
     <!-- device -->
-    <project path="device/xiaomi/pipa" name="pachdomenic/android_device_xiaomi_pipa" revision="lineage-21"  remote="github" />
+    <project path="device/xiaomi/pipa" name="amiami5/android_device_xiaomi_pipa" revision="lineage-21"  remote="github" />
     <project path="device/xiaomi/sm8250-common" name="amiami5/android_device_xiaomi_sm8250-common" revision="crdroid"  remote="github" />
 
     <!-- kernel -->
