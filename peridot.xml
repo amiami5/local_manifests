@@ -1,68 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/poco-f6-peridot" name="poco-f6-peridot"/>
+  <remote name="xiaomi-peridot"
+           fetch="https://github.com/xiaomi-peridot"
+           revision="vic" />
+
+  <remote name="codeberg"
+           fetch="https://codeberg.org"
+           revision="main" />
+
     <!-- hardware -->
-    <project path="hardware/xiaomi" name="peridot-dev/android_hardware_xiaomi" revision="lineage-21" remote="github" />
+    <project path="hardware/xiaomi" name="xiaomi-peridot/hardware_xiaomi" revision="vic" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="fourteen"  remote="github" />
+    <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="15.0"  remote="github" />
 
     <!-- kernel -->
     <project path="device/xiaomi/peridot-kernel" name="amiami5/android_device_xiaomi_peridot-prebuilt" remote="github" revision="lineage-21.0"  lone-depthc="1000" />
     
     <!-- device -->
-    <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="15" remote="github" />
-    
-  <!-- add guard for AOSP hardware/qcom dir -->
-  <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-  <!-- add guards for CAF repositories -->
-  <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
-  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
-  <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-  <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-  <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
-  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
-  <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
-  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
-  <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
-  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
-  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
+    <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="15.0" remote="github" />
 
-<project path="hardware/qcom-caf/sm8650/audio/agm" name="vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="lineage-21.0-caf-sm8650" remote="poco-f6-peridot" />
-<project path="hardware/qcom-caf/sm8650/audio/pal" name="vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="lineage-21.0-caf-sm8650" remote="poco-f6-peridot" />
-<project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="lineage-21.0-caf-sm8650" remote="poco-f6-peridot" />
-<project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="aosp-15" remote="poco-f6-peridot" />
-<project path="hardware/qcom-caf/sm8650/dataipa" name="vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="poco-f6-peridot" />
-<project path="hardware/qcom-caf/sm8650/display" name="hardware_qcom_display" groups="qcom" revision="bck" remote="poco-f6-peridot" />
-<project path="hardware/qcom-caf/sm8650/media" name="hardware_qcom_media" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="poco-f6-peridot" />
-<project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="poco-f6-peridot" />
+    <!-- devide-miuicamera -->
+    <project path="device/xiaomi/peridot-miuicamera" name="xiaomi-peridot/device_xiaomi_peridot-miuicamera" revision="14" remote="github" />
 
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_power"/>
-  <project path="vendor/qcom/opensource/power" name="peridot-dev/android_vendor_qcom_opensource_power" groups="qcom,lanai-vendor" revision="lineage-21.0" remote="github"/>
+    <!-- vendor-miuicamera -->
+    <project path="vendor/xiaomi/peridot-miuicamera" name="ramshell688/vendor_xiaomi_peridot-miuicamera" revision="main" remote="codeberg" />
 
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
-  <project path="vendor/qcom/opensource/vibrator" name="peridot-dev/android_vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" revision="lineage-21.0" remote="github"/>
+
+  <!-- Hardware -->
+  <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="xiaomi-peridot" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
+  </project>
+
+  <project path="hardware/qcom-caf/sm8650/audio/agm" name="vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="vic-sm8650" remote="xiaomi-peridot" />
+  <project path="hardware/qcom-caf/sm8650/audio/pal" name="vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="vic-sm8650" remote="xiaomi-peridot" />
+  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="vic-sm8650" remote="xiaomi-peridot" />
+  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="vic-sm8650" remote="xiaomi-peridot" />
+  <project path="hardware/qcom-caf/sm8650/dataipa" name="vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="vic-sm8650" remote="xiaomi-peridot" />
+  <project path="hardware/qcom-caf/sm8650/display" name="hardware_qcom_display" groups="qcom" revision="vic-sm8650" remote="xiaomi-peridot" />
+  <project path="hardware/qcom-caf/sm8650/media" name="hardware_qcom_media" groups="qcom,lanai-vendor" revision="vic-sm8650" remote="xiaomi-peridot" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="vic-sm8650" remote="xiaomi-peridot" />
   
-  <!--remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys"/>
-  <project path="vendor/qcom/opensource/commonsys/display" name="poco-f6-peridot/vendor_qcom_opensource_commonsys_display" groups="qcom,qssi" revision="15" remote="github" />
-  
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf"/>
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="poco-f6-peridot/vendor_qcom_opensource_commonsys-intf_display" groups="qcom,qssi" revision="15" remote="github" /-->
-
-
 </manifest>
