@@ -14,8 +14,8 @@
     <!-- kernel -->
     <project path="kernel/xiaomi/sm8250" name="amiami5/android_kernel_xiaomi_sm8250" remote="github" revision="develop"  lone-depthc="1000" />
 
-    <!-- recovery -->
+    <!-- recovery >
     <remove-project name="crdroidandroid/android_bootable_recovery"/>
-    <project path="bootable/recovery" name="amiami5/android_bootable_recovery" remote="github" revision="15" />
+    <project path="bootable/recovery" name="amiami5/android_bootable_recovery" remote="github" revision="15" /-->
 
 </manifest>
