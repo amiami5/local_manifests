@@ -1,4 +1,4 @@
-現在はcrdroid-peridot-15とcrdroid-pipa-15が動作することは実機で確認していますが<br>
+記載時時点でcrdroid-peridot-15とcrdroid-pipa-15が動作することは実機で確認していますが<br>
 すべての機能が完全に動くことは保証してませんのでご了承ください
 <br><br>
 パッケージ署名用の秘密鍵（lineage-priv）以外はすべて公開していますので<br>
