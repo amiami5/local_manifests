@@ -9,7 +9,7 @@
 
     <!-- device -->
     <project path="device/xiaomi/pipa" name="amiami5/android_device_xiaomi_pipa" revision="develop"  remote="github" />
-    <project path="device/xiaomi/sm8250-common" name="amiami5/android_device_xiaomi_sm8250-common" revision="15"  remote="github" />
+    <project path="device/xiaomi/sm8250-common" name="amiami5/android_device_xiaomi_sm8250-common" revision="develop"  remote="github" />
 
     <!-- kernel -->
     <project path="kernel/xiaomi/sm8250" name="amiami5/android_kernel_xiaomi_sm8250" remote="github" revision="develop"  lone-depthc="1000" />
