@@ -4,8 +4,8 @@
     <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" revision="15.0" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/sm8250-common" name="amiami5/proprietary_vendor_xiaomi_sm8250-common" revision="15"  remote="github" />
-    <project path="vendor/xiaomi/pipa" name="amiami5/proprietary_vendor_xiaomi_pipa" revision="15"  remote="github" />
+    <project path="vendor/xiaomi/sm8250-common" name="amiami5/proprietary_vendor_xiaomi_sm8250-common" revision="develop"  remote="github" />
+    <project path="vendor/xiaomi/pipa" name="amiami5/proprietary_vendor_xiaomi_pipa" revision="develop"  remote="github" />
 
     <!-- device -->
     <project path="device/xiaomi/pipa" name="amiami5/android_device_xiaomi_pipa" revision="15"  remote="github" />
