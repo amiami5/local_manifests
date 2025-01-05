@@ -7,7 +7,7 @@
 https://github.com/306bobby-android/crDroid-build-signed-script <br>
 ここのhow to runを参考に作ってください。これでわからないなら知りません。<br>
 device-commonのkona.mkの当該項目をコメントアウトすればビルドエラーが出ないような気もしますが<br>
-試してないのでわかりません。これでできないならわかりません、偉い人が配布しているROMを使いましょう。<br><br>
+試してないのでわかりません。これでできないならわかりません、私以外の偉い人が配布しているROMを使いましょう。<br><br>
 
 
 ビルド済みはこちらに移動しました(pipaのみ）<br>
