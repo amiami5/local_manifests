@@ -15,7 +15,7 @@
     <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="15.0"  remote="github" />
 
     <!-- kernel -->
-    <project path="device/xiaomi/peridot-kernel" name="amiami5/android_device_xiaomi_peridot-prebuilt" remote="github" revision="lineage-21.0"  lone-depthc="1000" />
+    <project path="device/xiaomi/peridot-kernel" name="amiami5/android_device_xiaomi_peridot-prebuilt" remote="github" revision="15"  lone-depthc="1000" />
     
     <!-- device -->
     <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="15.0" remote="github" />
