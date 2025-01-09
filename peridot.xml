@@ -12,7 +12,7 @@
     <project path="hardware/xiaomi" name="xiaomi-peridot/hardware_xiaomi" revision="vic" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="15.0"  remote="github" />
+    <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="develop"  remote="github" />
 
     <!-- kernel -->
     <project path="device/xiaomi/peridot-kernel" name="amiami5/android_device_xiaomi_peridot-prebuilt" remote="github" revision="15"  lone-depthc="1000" />
