@@ -20,7 +20,7 @@
     <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="15.0" remote="github" />
 
     <project path="device/xiaomi/peridot-miuicamera" name="amiami5/device_xiaomi_peridot-miuicamera" revision="15" remote="github" />
-    <project path="vendor/xiaomi/peridot-miuicamera" name="athizz2005/vendor_xiaomi_peridot-miuicamera" revision="main" remote="gitea" />
+    <project path="vendor/xiaomi/peridot-miuicamera" name="amisuke/vendor_xiaomi_peridot-miuicamera" revision="main" remote="gitea" />
 
     <!-- devide-miuicamera -->
     <!--project path="device/xiaomi/peridot-miuicamera" name="xiaomi-peridot/device_xiaomi_peridot-miuicamera" revision="14" remote="github" /-->
