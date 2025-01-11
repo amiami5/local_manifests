@@ -4,27 +4,29 @@
            fetch="https://github.com/xiaomi-peridot"
            revision="vic" />
 
-  <remote name="codeberg"
-           fetch="https://codeberg.org"
-           revision="main" />
+  <remote name="gitea"
+          fetch="https://gitea.com/" />
 
     <!-- hardware -->
     <project path="hardware/xiaomi" name="xiaomi-peridot/hardware_xiaomi" revision="vic" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="develop"  remote="github" />
+    <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="15.0"  remote="github" />
 
     <!-- kernel -->
     <project path="device/xiaomi/peridot-kernel" name="amiami5/android_device_xiaomi_peridot-prebuilt" remote="github" revision="15"  lone-depthc="1000" />
     
     <!-- device -->
-    <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="15.0" remote="github" />
+    <project path="device/xiaomi/peridot" name="xiaomi-peridot/device_xiaomi_peridot" revision="vic" remote="github" />
+
+    <project path="device/xiaomi/peridot-miuicamera" name="amiami5/device_xiaomi_peridot-miuicamera" revision="15" remote="github" />
+    <project path="vendor/xiaomi/peridot-miuicamera" name="athizz2005/vendor_xiaomi_peridot-miuicamera" revision="main" remote="gitea" />
 
     <!-- devide-miuicamera -->
-    <project path="device/xiaomi/peridot-miuicamera" name="xiaomi-peridot/device_xiaomi_peridot-miuicamera" revision="14" remote="github" />
+    <!--project path="device/xiaomi/peridot-miuicamera" name="xiaomi-peridot/device_xiaomi_peridot-miuicamera" revision="14" remote="github" /-->
 
     <!-- vendor-miuicamera -->
-    <project path="vendor/xiaomi/peridot-miuicamera" name="ramshell688/vendor_xiaomi_peridot-miuicamera" revision="main" remote="codeberg" />
+    <!--project path="vendor/xiaomi/peridot-miuicamera" name="ramshell688/vendor_xiaomi_peridot-miuicamera" revision="main" remote="codeberg" /-->
 
 
   <!-- Hardware -->
