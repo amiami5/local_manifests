@@ -13,4 +13,4 @@ device-commonのkona.mkの当該項目をコメントアウトすればビルド
 ビルド済みはこちらに移動しました(pipaのみ）<br>
 https://sourceforge.net/projects/crdroid-pipa/files/
 
-peridotに関しては一部コードを非公開にしました
+peridotに関しては一部コードを一時的に非公開にしました
