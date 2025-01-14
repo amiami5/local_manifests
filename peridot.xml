@@ -8,7 +8,7 @@
           fetch="https://gitea.com/" />
 
     <!-- hardware -->
-    <project path="hardware/xiaomi" name="xiaomi-peridot/hardware_xiaomi" revision="vic" remote="github" />
+    <project path="hardware/xiaomi" name="amisuke/hardware_xiaomi.git" revision="15.0" remote="gitea" />
 
     <!-- vendor -->
     <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="15.0"  remote="github" />
