@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- hardware -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-22.1" remote="github" />
+    <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" revision="15.0" remote="github" />
 
 <!-- vendor -->
     <project path="vendor/xiaomi/sm8250-common" name="amiami5/proprietary_vendor_xiaomi_sm8250-common" revision="develop"  remote="github" />
