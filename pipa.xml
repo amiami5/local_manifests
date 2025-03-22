@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- hardware -->
-    <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" revision="15.0" remote="github" />
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-22.1" remote="github" />
 
     <!-- vendor -->
     <project path="vendor/xiaomi/sm8250-common" name="amiami5/proprietary_vendor_xiaomi_sm8250-common" revision="15"  remote="github" />
@@ -14,6 +14,8 @@
     <!-- kernel -->
     <project path="kernel/xiaomi/sm8250" name="amiami5/android_kernel_xiaomi_sm8250" remote="github" revision="develop"  lone-depthc="1000" />
 
+    <!-- Dolby -->
+    <project path="packages/apps/XiaomiDolby" name="ai94iq/android_packages_apps_XiaomiDolby" remote="github" revision="axv" />    
     <!-- recovery >
     <remove-project name="crdroidandroid/android_bootable_recovery"/>
     <project path="bootable/recovery" name="amiami5/android_bootable_recovery" remote="github" revision="15" /-->
