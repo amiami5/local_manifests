@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- hardware -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-22.2" remote="github" />
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-23.0" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/sm8250-common" name="amiami5/proprietary_vendor_xiaomi_sm8250-common" revision="ax-15"  remote="github" />
-    <project path="vendor/xiaomi/pipa" name="amiami5/proprietary_vendor_xiaomi_pipa" revision="ax-15"  remote="github" />
+    <project path="vendor/xiaomi/sm8250-common" name="amiami5/proprietary_vendor_xiaomi_sm8250-common" revision="ax-16"  remote="github" />
+    <project path="vendor/xiaomi/pipa" name="amiami5/proprietary_vendor_xiaomi_pipa" revision="ax-16"  remote="github" />
 
     <!-- device -->
-    <project path="device/xiaomi/pipa" name="amiami5/android_device_xiaomi_pipa" revision="ax-15"  remote="github" />
-    <project path="device/xiaomi/sm8250-common" name="amiami5/android_device_xiaomi_sm8250-common" revision="ax-15"  remote="github" />
+    <project path="device/xiaomi/pipa" name="amiami5/android_device_xiaomi_pipa" revision="ax-16"  remote="github" />
+    <project path="device/xiaomi/sm8250-common" name="amiami5/android_device_xiaomi_sm8250-common" revision="ax-16"  remote="github" />
 
     <!-- kernel -->
-    <project path="kernel/xiaomi/sm8250" name="amiami5/android_kernel_xiaomi_sm8250" remote="github" revision="ax-15"  lone-depthc="1000" />
+    <project path="kernel/xiaomi/sm8250" name="amiami5/android_kernel_xiaomi_sm8250" remote="github" revision="ax-16-ksu-next"  lone-depthc="1000" />
 
     <!-- Dolby -->
-    <project path="packages/apps/XiaomiDolby" name="ai94iq/android_packages_apps_XiaomiDolby" remote="github" revision="lineage-22.2" />    
+    <project path="hardware/dolby" name="Matrixx-Devices/hardware_dolby" remote="github" revision="pipa-tweaks" />    
     <!-- recovery >
     <remove-project name="crdroidandroid/android_bootable_recovery"/>
     <project path="bootable/recovery" name="amiami5/android_bootable_recovery" remote="github" revision="15" /-->
