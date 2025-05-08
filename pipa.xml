@@ -12,7 +12,7 @@
     <project path="device/xiaomi/sm8250-common" name="amiami5/android_device_xiaomi_sm8250-common" revision="ax-15"  remote="github" />
 
     <!-- kernel -->
-    <project path="kernel/xiaomi/sm8250" name="amiami5/android_kernel_xiaomi_sm8250" remote="github" revision="ax-15"  lone-depthc="1000" />
+    <project path="kernel/xiaomi/sm8250" name="amiami5/android_kernel_xiaomi_sm8250" remote="github" revision="ax-15-lts"  lone-depthc="1000" />
 
     <!-- Dolby -->
     <project path="packages/apps/XiaomiDolby" name="ai94iq/android_packages_apps_XiaomiDolby" remote="github" revision="lineage-22.2" />    
