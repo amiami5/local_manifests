@@ -11,18 +11,19 @@
            fetch="https://github.com/xiaomi-peridot"
            revision="vic" />
 
-  <project path="hardware/xiaomi" name="hardware_xiaomi" revision="lineage-22.2" remote="Soverzion-Peridot" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" revision="vic-qpr2" remote="xiaomi-peridot" />
 
-  <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" revision="axion-15" remote="Soverzion-Peridot" />
-  <project path="vendor/xiaomi/peridot" name="vendor_xiaomi_peridot" revision="lineage-22.2" remote="Soverzion-Peridot" />
+  <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="axion-15" remote="github" />
+  <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="axion-15" remote="github" />
   <project path="device/xiaomi/peridot-kernel" name="device_xiaomi_peridot-kernel" revision="15" remote="Soverzion-Peridot" />
 
   <project path="device/xiaomi/peridot-miuicamera" name="device_xiaomi_peridot-miuicamera" revision="14-leica" remote="Soverzion-Peridot" />
   <project path="vendor/xiaomi/peridot-miuicamera" name="vendor_xiaomi_peridot-miuicamera" revision="14-leica" remote="Soverzion-HQ" />
 
+
   <!-- Hardware -->
   <remove-project path="hardware/qcom-caf/common" />
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="Soverzion-Peridot" >
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="xiaomi-peridot" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
