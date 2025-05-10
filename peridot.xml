@@ -15,7 +15,7 @@
 
   <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="axion-15" remote="github" />
   <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="axion-15" remote="github" />
-  <project path="device/xiaomi/peridot-kernel" name="device_xiaomi_peridot-kernel" revision="15" remote="Soverzion-Peridot" />
+  <project path="device/xiaomi/peridot-kernel" name="xiaomi-peridot/device_xiaomi_peridot-kernel" revision="staging/vic" remote="github" />
 
   <project path="device/xiaomi/peridot-miuicamera" name="device_xiaomi_peridot-miuicamera" revision="14-leica" remote="Soverzion-Peridot" />
   <project path="vendor/xiaomi/peridot-miuicamera" name="vendor_xiaomi_peridot-miuicamera" revision="14-leica" remote="Soverzion-HQ" />
