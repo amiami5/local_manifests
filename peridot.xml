@@ -13,7 +13,7 @@
 
   <project path="hardware/xiaomi" name="hardware_xiaomi" revision="vic-qpr2" remote="xiaomi-peridot" />
 
-  <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="axion-15" remote="github" />
+  <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="test" remote="github" />
   <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="axion-15" remote="github" />
   <project path="device/xiaomi/peridot-kernel" name="xiaomi-peridot/device_xiaomi_peridot-kernel" revision="staging/vic" remote="github" />
 
