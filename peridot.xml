@@ -11,7 +11,7 @@
            fetch="https://github.com/xiaomi-peridot"
            revision="vic" />
            
-  <project path="hardware/xiaomi" name="hardware_xiaomi" revision="vic" remote="xiaomi-peridot" />
+  <project path="hardware/xiaomi" name="amiami5/android_hardware_xiaomi" revision="ax-15" remote="github" />
 
   <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="axion-15" remote="github" />
   <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="axion-15" remote="github" />
