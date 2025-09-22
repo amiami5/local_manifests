@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yaap"
+          fetch="https://github.com/yaap/"
+          revision="sixteen" />
+
+    <!-- hardware -->
+    <project path="hardware/xiaomi" name="amiami5/android_hardware_xiaomi" revision="ax-16" remote="github" />
+
+    <!-- vendor -->
+    <project path="vendor/xiaomi/peridot" name="amiami5/vendor_xiaomi_peridot" revision="16"  remote="github" />
+
+    <!-- kernel -->
+    <project path="device/xiaomi/peridot-kernel" name="amiami5/android_device_xiaomi_peridot-prebuilt" remote="github" revision="ax-16"  lone-depthc="1000" />
+    
+    <!-- device -->
+    <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="ax-16" remote="github" />
+
+    <project path="device/xiaomi/peridot-miuicamera" name="sm8635-dev/device_xiaomi_peridot-miuicamera" revision="16" remote="github" />
+    <project path="vendor/xiaomi/peridot-miuicamera" name="sm8635-dev/vendor_xiaomi_peridot-miuicamera" revision="16" remote="github" />
+    
+    <!-- dolby -->
+    <project path="hardware/dolby" name="sm8635-dev/hardware_dolby" revision="16-oss" remote="github" />
+
+    <!--project path="packages/apps/FastCharge" name="sm8635-dev/packages_apps_FastCharge" revision="16" remote="github" /-->
+
+
+  <!-- Hardware -->
+<!-- YAAP source -->
+
+  <remove-project path="device/qcom/sepolicy_vndr/sm8650" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr_sm8650" remote="yaap" />
+
+  <remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
+  <project path="hardware/qcom-caf/sm8650/audio/agm" name="vendor_qcom_opensource_agm-sm8650" remote="yaap" />
+
+  <remove-project path="hardware/qcom-caf/sm8650/audio/graphservices" />
+  <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="vendor_qcom_opensource_audioreach-graphservices-sm8650" remote="yaap" />
+
+  <remove-project path="hardware/qcom-caf/sm8650/audio/pal" />
+  <project path="hardware/qcom-caf/sm8650/audio/pal" name="vendor_qcom_opensource_arpal-lx-sm8650" remote="yaap" />
+
+  <remove-project path="hardware/qcom-caf/sm8650/audio/primary-hal" />
+  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom_audio-ar-sm8650" remote="yaap" />
+
+  <remove-project path="hardware/qcom-caf/sm8650/dataipa" />
+  <project path="hardware/qcom-caf/sm8650/dataipa" name="vendor_qcom_opensource_dataipa-sm8650" remote="yaap" />
+
+  <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
+  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="yaap" />
+
+  <remove-project path="hardware/qcom-caf/sm8650/display" />
+  <project path="hardware/qcom-caf/sm8650/display" name="hardware_qcom-caf_sm8650_display" remote="yaap" />
+
+  <remove-project path="hardware/qcom-caf/common" />
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="yaap">
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
+  </project>
+
+  <remove-project path="hardware/qcom-caf/thermal" />
+  <project path="hardware/qcom-caf/thermal" name="hardware_qcom-caf_thermal" remote="yaap" />
+
+  <remove-project path="vendor/qcom/opensource/vibrator" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="yaap" />
+
+  <remove-project path="vendor/qcom/opensource/usb" />
+  <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="yaap" />
+
+</manifest>
