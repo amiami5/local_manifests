@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="yaap"
+  <!--remote name="yaap"
           fetch="https://github.com/yaap/"
-          revision="sixteen" />
+          revision="sixteen" /-->
 
     <!-- hardware -->
     <project path="hardware/xiaomi" name="amiami5/android_hardware_xiaomi" revision="ax-16" remote="github" />
@@ -23,7 +23,7 @@
     <project path="vendor/xiaomi/peridot-miuicamera" name="sm8635-dev/vendor_xiaomi_peridot-miuicamera" revision="16" remote="github" />
     
     <!-- dolby -->
-    <project path="hardware/dolby" name="sm8635-dev/hardware_dolby" revision="16-oss" remote="github" />
+    <!--project path="hardware/dolby" name="sm8635-dev/hardware_dolby" revision="16-oss" remote="github" /-->
 
     <!--project path="packages/apps/FastCharge" name="sm8635-dev/packages_apps_FastCharge" revision="16" remote="github" /-->
 
@@ -31,6 +31,7 @@
   <!-- Hardware -->
 <!-- YAAP source -->
 
+<!--
   <remove-project path="device/qcom/sepolicy_vndr/sm8650" />
   <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr_sm8650" remote="yaap" />
 
@@ -95,4 +96,5 @@
   <remove-project path="vendor/qcom/opensource/usb" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="yaap" />
 
+-->
 </manifest>
