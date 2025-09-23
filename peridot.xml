@@ -12,9 +12,10 @@
 
     <!-- kernel -->
     <!--project path="device/xiaomi/peridot-kernel" name="amiami5/android_device_xiaomi_peridot-prebuilt" remote="github" revision="ax-16"  lone-depthc="1000" /-->
-    <project path="kernel/xiaomi/sm8635" name="sm8635-dev/kernel-6.1-lts" remote="github" revision="6.1-lts"  lone-depthc="1" />
-    <project path="kernel/xiaomi/sm8635-modules" name="raghavt20/android_kernel_xiaomi_sm8635-modules" remote="github" revision="master"  lone-depthc="1" />
-    
+    <project path="kernel/xiaomi/sm8635" name="sm8635-dev/kernel_xiaomi_sm8635" remote="github" revision="lineage-23.0"  lone-depthc="1" />
+    <project path="kernel/xiaomi/sm8635-modules" name="sm8635-dev/kernel_xiaomi_sm8635-modules" remote="github" revision="lineage-23.0"  lone-depthc="1" />
+    <project path="kernel/xiaomi/sm8635-devicetrees" name="sm8635-dev/kernel_xiaomi_sm8635-devicetrees" remote="github" revision="lineage-23.0"  lone-depthc="1" />
+
     <!-- device -->
     <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="ax-16" remote="github" />
 
