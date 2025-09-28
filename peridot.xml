@@ -5,27 +5,27 @@
           revision="sixteen" /-->
 
     <!-- hardware -->
-    <project path="hardware/xiaomi" name="peridot-dev/android_hardware_xiaomi" revision="lineage-23.0" remote="github" />
+    <project path="hardware/xiaomi" name="sm8635-dev/hardware_xiaomi" revision="lineage-23.0" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/peridot" name="peridot-dev/proprietary_vendor_xiaomi_peridot" revision="lineage-23.0"  remote="github" />
+    <project path="vendor/xiaomi/peridot" name="sm8635-dev/vendor_xiaomi_peridot" revision="lineage-23.0"  remote="github" />
 
     <!-- kernel -->
     <!--project path="device/xiaomi/peridot-kernel" name="amiami5/android_device_xiaomi_peridot-prebuilt" remote="github" revision="ax-16"  lone-depthc="1000" /-->
-    <project path="kernel/xiaomi/sm8635" name="peridot-dev/android_kernel_xiaomi_sm8635" remote="github" revision="lineage-23.0"  lone-depthc="1" />
-    <project path="kernel/xiaomi/sm8635-modules" name="peridot-dev/android_kernel_xiaomi_sm8635-modules" remote="github" revision="lineage-23.0"  lone-depthc="1" />
-    <project path="kernel/xiaomi/sm8635-devicetrees" name="peridot-dev/android_kernel_xiaomi_sm8635-devicetrees" remote="github" revision="lineage-23.0"  lone-depthc="1" />
+    <project path="kernel/xiaomi/sm8635" name="sm8635-dev/kernel_xiaomi_sm8635" remote="github" revision="lineage-23.0"  lone-depthc="1" />
+    <project path="kernel/xiaomi/sm8635-modules" name="sm8635-dev/kernel_xiaomi_sm8635-modules" remote="github" revision="lineage-23.0"  lone-depthc="1" />
+    <project path="kernel/xiaomi/sm8635-devicetrees" name="sm8635-dev/kernel_xiaomi_sm8635-devicetrees" remote="github" revision="lineage-23.0"  lone-depthc="1" />
 
     <!-- device -->
-    <project path="device/xiaomi/peridot" name="peridot-dev/android_device_xiaomi_peridot" revision="lineage-23.0" remote="github" />
+    <project path="device/xiaomi/peridot" name="sm8635-dev/android_device_xiaomi_peridot" revision="lineage-23.0" remote="github" />
 
     <project path="device/xiaomi/peridot-miuicamera" name="sm8635-dev/device_xiaomi_peridot-miuicamera" revision="16" remote="github" />
     <project path="vendor/xiaomi/peridot-miuicamera" name="sm8635-dev/vendor_xiaomi_peridot-miuicamera" revision="16" remote="github" />
     
     <!-- dolby -->
-    <project path="hardware/dolby" name="peridot-dev/android_packages_apps_XiaomiDolby" revision="lineage-23.0" remote="github" />
-
-    <!--project path="packages/apps/FastCharge" name="sm8635-dev/packages_apps_FastCharge" revision="16" remote="github" /-->
+    <project path="hardware/dolby" name="sm8635-dev/hardware_dolby" revision="16-oss" remote="github" />
+    
+    <project path="packages/apps/KProfiles" name="sm8635-dev/packages_apps_KProfiles" revision="lineage-23.0" remote="github" />
 
 
   <!-- Hardware -->
