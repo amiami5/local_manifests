@@ -13,7 +13,7 @@
     <project path="kernel/xiaomi/sm8635-devicetrees" name="sm8635-dev/kernel_xiaomi_sm8635-devicetrees" remote="github" revision="lineage-23.0" />
 
     <!-- device -->
-    <project path="device/xiaomi/peridot" name="sm8635-dev/android_device_xiaomi_peridot" revision="lineage-23.0" remote="github" />
+    <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="ax-16-ksu" remote="github" />
 
     <project path="device/xiaomi/peridot-miuicamera" name="sm8635-dev/device_xiaomi_peridot-miuicamera" revision="16" remote="github" />
     <project path="vendor/xiaomi/peridot-miuicamera" name="sm8635-dev/vendor_xiaomi_peridot-miuicamera" revision="16" remote="github" />
