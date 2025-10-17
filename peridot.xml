@@ -5,7 +5,7 @@
     <project path="hardware/xiaomi" name="sm8635-dev/hardware_xiaomi" revision="lineage-23.0" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/peridot" name="sm8635-dev/vendor_xiaomi_peridot" revision="lineage-23.0"  remote="github" />
+    <project path="vendor/xiaomi/peridot" name="amiami5/proprietary_vendor_xiaomi_peridot" revision="ax-16"  remote="github" />
 
     <!-- kernel -->
     <project path="kernel/xiaomi/sm8635" name="amiami5/android_kernel_xiaomi_sm8635" remote="github" revision="lineage-23.0-ksu" />
