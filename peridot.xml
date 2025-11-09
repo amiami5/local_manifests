@@ -2,25 +2,25 @@
 <manifest>
 
     <!-- hardware -->
-    <project path="hardware/xiaomi" name="sm8635-dev/hardware_xiaomi" revision="lineage-23.0" remote="github" />
+    <project path="hardware/xiaomi" name="Poco-F6-resources/android_hardware_xiaomi.git" revision="test" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/peridot" name="amiami5/vendor_xiaomi_peridot" revision="test"  remote="github" />
+    <project path="vendor/xiaomi/peridot" name="Poco-F6-resources/proprietary_vendor_xiaomi_peridot.git" revision="lineage-23.0"  remote="github" />
 
     <!-- kernel -->
-    <project path="kernel/xiaomi/sm8635" name="amiami5/android_kernel_xiaomi_sm8635" remote="github" revision="test" />
-    <project path="kernel/xiaomi/sm8635-modules" name="amiami5/android_kernel_xiaomi_sm8635-modules" remote="github" revision="test" />
-    <project path="kernel/xiaomi/sm8635-devicetrees" name="amiami5/android_kernel_xiaomi_sm8635-devicetrees" remote="github" revision="test" />
+    <project path="kernel/xiaomi/sm8635" name="Poco-F6-resources/android_kernel_xiaomi_sm8635.git" remote="github" revision="ksu" />
+    <project path="kernel/xiaomi/sm8635-modules" name="Poco-F6-resources/android_kernel_xiaomi_sm8635-modules.git" remote="github" revision="Rd" />
+    <project path="kernel/xiaomi/sm8635-devicetrees" name="Poco-F6-resources/android_kernel_xiaomi_sm8635-devicetrees.git" remote="github" revision="Rd" />
 
     <!-- device -->
     <project path="device/xiaomi/peridot" name="amiami5/android_device_xiaomi_peridot" revision="test" remote="github" />
 
-    <project path="device/xiaomi/peridot-miuicamera" name="sm8635-dev/device_xiaomi_peridot-miuicamera" revision="16" remote="github" />
-    <project path="vendor/xiaomi/peridot-miuicamera" name="sm8635-dev/vendor_xiaomi_peridot-miuicamera" revision="16" remote="github" />
+    <project path="device/xiaomi/peridot-miuicamera" name="F6-test/device_xiaomi_peridot-miuicamera.git" revision="aosp-15-qpr2" remote="github" />
+    <project path="vendor/xiaomi/peridot-miuicamera" name="F6-test/vendor-xiaomi-peridot-miuicamera.git" revision="aosp-15-qpr2" remote="github" />
     
     <!-- dolby -->
-    <!--project path="packages/apps/XiaomiDolby" name="amiami5/android_packages_apps_XiaomiDolby" revision="lineage-22.2" remote="github" /-->
+    <project path="packages/apps/XiaomiDolby" name="Poco-F6-resources/android_packages_apps_XiaomiDolby.git" revision="lineage-23.0" remote="github" />
     
-    <project path="packages/apps/KProfiles" name="sm8635-dev/packages_apps_KProfiles" revision="lineage-23.0" remote="github" />
+    <!--project path="packages/apps/KProfiles" name="sm8635-dev/packages_apps_KProfiles" revision="lineage-23.0" remote="github" /-->
 
 </manifest>
