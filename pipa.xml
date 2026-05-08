@@ -5,7 +5,7 @@
     
     <!-- Device -->
     <project path="device/xiaomi/sm8250-common" name="MufasaXz/android_device_xiaomi_sm8250-common" remote="github" revision="16-InfinityX" />
-    <project path="device/xiaomi/pipa" name="MufasaXz/android_device_xiaomi_pipa" remote="github" revision="16-InfinityX" />
+    <project path="device/xiaomi/pipa" name="MufasaXz/device_xiaomi_pipa" remote="github" revision="16-InfinityX" />
     
     <!-- Vendor -->
     <project path="vendor/xiaomi/sm8250-common" name="MufasaXz/vendor_xiaomi_sm8250-common" remote="github" revision="16" />
