@@ -3,17 +3,15 @@
   <remote name="gh" fetch="https://github.com/" />
 
   <!-- Kernel Repo -->
-  <project name="Xiaomi-Pad6/kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="gh" revision="16" lone-depthc="1000" />
+  <project name="SD870/kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="gh" revision="16.ksun" lone-depthc="1000" />
 
   <!-- Other Repos -->
-  <project name="Xiaomi-Pad6/device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="gh" revision="16" />
-  <project name="Xiaomi-Pad6/vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="gh" revision="16" />
-  <project name="Xiaomi-Pad6/vendor_xiaomi_pipa" path="vendor/xiaomi/pipa" remote="gh" revision="16" />
-  <project name="amiami5/android_device_xiaomi_pipa" path="device/xiaomi/pipa" remote="gh" revision="test" />
+  <project name="amiami5/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="gh" revision="ax-16" />
+  <project name="amiami5/proprietary_vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="gh" revision="ax-16" />
+  <project name="amiami5/vendor_xiaomi_pipa" path="vendor/xiaomi/pipa" remote="gh" revision="ax-16" />
+  <project name="amiami5/android_device_xiaomi_pipa" path="device/xiaomi/pipa" remote="gh" revision="ax-16" />
 
-  <project name="PocoF3Releases/vendor_qcom_wfd" path="vendor/qcom/wfd" remote="gh" revision="bka" />
-  <project name="PocoF3Releases/device_qcom_wfd" path="device/qcom/wfd" remote="gh" revision="bka" />
-  <project name="gensis01/hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="aosp-16" />
+  <project name="SD870/hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="16" />
   <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
   <project name="PocoF3Releases/packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gh" revision="aosp-16" />
 
