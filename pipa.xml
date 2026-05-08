@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8250" name="MufasaXz/kernel_xiaomi_e404" remote="github" revision="16" />
+    <project path="kernel/xiaomi/sm8250" name="MufasaXz/kernel_xiaomi_pipa" remote="github" revision="16" />
     
     <!-- Device -->
     <project path="device/xiaomi/sm8250-common" name="MufasaXz/android_device_xiaomi_sm8250-common" remote="github" revision="16-InfinityX" />
