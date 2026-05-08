@@ -12,8 +12,8 @@
     <project path="vendor/xiaomi/pipa" name="MufasaXz/vendor_xiaomi_pipa" remote="github" revision="16" />
     
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="MufasaXz/hardware_xiaomi" remote="github" revision="16" />
+    <!--project path="hardware/xiaomi" name="MufasaXz/hardware_xiaomi" remote="github" revision="16" /-->
     
     <!-- Packages -->
-    <project path="packages/resources/devicesettings" name="PocoF3Releases/packages_resources_devicesettings" remote="github" revision="aosp-16" />
+    <!--project path="packages/resources/devicesettings" name="PocoF3Releases/packages_resources_devicesettings" remote="github" revision="aosp-16" /-->
 </manifest>
