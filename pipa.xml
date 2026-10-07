@@ -12,8 +12,9 @@
   <project name="amisuke/proprietary_vendor_xiaomi_pipa" path="vendor/xiaomi/pipa" remote="gitea" revision="ax-16" />
   <project name="amiami5/android_device_xiaomi_pipa" path="device/xiaomi/pipa" remote="github" revision="ax-16" />
 
-  <project name="SD870/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="16" />
+  <project name="amiami5/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="ax-pipa-16" />
+<!--
   <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
   <project name="PocoF3Releases/packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="aosp-16" />
-
+-->
 </manifest>
