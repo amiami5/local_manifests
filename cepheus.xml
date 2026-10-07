@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="amiami5" fetch="https://github.com/amiami5" />
+
+  <!-- Device -->
+  <project path="device/xiaomi/cepheus" name="device_xiaomi_cepheus" remote="amiami5" revision="16.0" />
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/cepheus" name="kernel_xiaomi_cepheus" remote="amiami5" revision="16.0" clone-depth="1" />
+
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/cepheus" name="vendor_xiaomi_cepheus" remote="amiami5" revision="15.0" clone-depth="1" />
+
+  <!-- Hardware (device.mk: PRODUCT_SOONG_NAMESPACES += hardware/xiaomi, libudfps_extension.xiaomi) -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
+</manifest>
