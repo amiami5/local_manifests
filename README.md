@@ -254,3 +254,4 @@ ax -br
 
 - Axion AOSP: <https://github.com/AxionAOSP/android>
 - この local_manifests: <https://github.com/amiami5/local_manifests>
+- Buildしたくない人向けの配布場所　<https://sourceforge.net/projects/axion-cepheus/>
