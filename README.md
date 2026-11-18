@@ -56,7 +56,7 @@ sudo apt install -y \
   git git-lfs gnupg gperf imagemagick lib32z1-dev libdw-dev libelf-dev \
   libgnutls28-dev libssl-dev libxml2 libxml2-utils lz4 lzop pngcrush \
   protobuf-compiler python3 python3-protobuf rsync squashfs-tools \
-  xsltproc zip unzip zlib1g-dev
+  xsltproc zip unzip zlib1g-dev cmake ninja-build
 ```
 
 - パッケージ名は Ubuntu のバージョンで少し違うことがあります。「Unable to locate package」と出たものは、その名前を一覧から外して、もう一度実行してください。
