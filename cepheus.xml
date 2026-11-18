@@ -3,7 +3,7 @@
   <remote name="amiami5" fetch="https://github.com/amiami5" />
 
   <!-- Device -->
-  <project path="device/xiaomi/cepheus" name="device_xiaomi_cepheus" remote="amiami5" revision="main" />
+  <project path="device/xiaomi/cepheus" name="device_xiaomi_cepheus" remote="amiami5" revision="16.0" />
 
   <!-- Kernel -->
   <project path="kernel/xiaomi/cepheus" name="kernel_xiaomi_cepheus" remote="amiami5" revision="main" />
