@@ -11,4 +11,7 @@
   <!-- Vendor -->
   <project path="vendor/xiaomi/cepheus" name="vendor_xiaomi_cepheus" remote="amiami5" revision="16.0" />
 
+  <!-- Leica Camera -->
+  <project path="vendor/xiaomi/miuicamera-cepheus" name="Evolution-X-Devices/vendor_xiaomi_miuicamera-cepheus" remote="github" revision="bka" clone-depth="1" />
+
 </manifest>
