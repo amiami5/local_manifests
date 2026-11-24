@@ -9,6 +9,6 @@
   <project path="kernel/xiaomi/cepheus" name="kernel_xiaomi_cepheus" remote="amiami5" revision="main" />
 
   <!-- Vendor -->
-  <project path="vendor/xiaomi/cepheus" name="vendor_xiaomi_cepheus" remote="amiami5" revision="develop-419" />
+  <project path="vendor/xiaomi/cepheus" name="vendor_xiaomi_cepheus" remote="amiami5" revision="16.0" />
 
 </manifest>
