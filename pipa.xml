@@ -4,7 +4,7 @@
   <remote name="gitea" fetch="https://gitea.com/" />
 
   <!-- Kernel Repo -->
-  <project name="amiami5/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github" revision="ax-16" lone-depthc="1000" />
+  <project name="amiami5/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github" revision="ax-16" clone-depth="1000" />
 
   <!-- Other Repos -->
   <project name="amiami5/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="ax-16" />
