@@ -13,4 +13,8 @@
 
   <!-- Hardware (device.mk: PRODUCT_SOONG_NAMESPACES += hardware/xiaomi, libudfps_extension.xiaomi) -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
+
+  <!-- Leica Camera -->
+  <project path="vendor/xiaomi/miuicamera-cepheus" name="Evolution-X-Devices/vendor_xiaomi_miuicamera-cepheus" remote="github" revision="bka" clone-depth="1" />
+
 </manifest>
